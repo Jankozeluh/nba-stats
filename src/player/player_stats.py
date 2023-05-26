@@ -12,6 +12,8 @@ import numpy as np
 
 
 def show_player_stats():
+    st.title("Player Stats")
+
     player_name = st.text_input("Enter player name:")
     player_names = get_player_names(player_name)
 
